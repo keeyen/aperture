@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>APERTURE</title>
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <div id="logo-header">
+        <h1 id="logo" >APERTURE</h1>
+      </div>
+      <nav>  
+        <div class="nav-container">
+          <a href="index.html" class="nav-text nav-current">Style Guide</a>
+          <a href="product_listing.html" class="nav-text">Product Listings</a>
+          <a href="checkout.html" class="nav-text">Checkout</a>
+        </div>      
+      </nav>
+    </header>
+
+    <div class="sub-header-container">
+      <h1 class="sub-header">Style Guide</h1>
+      <div>
+        <a href="#interactive_elements" class="sub-nav-text">Interactive Elements</a>
+        <a href="#text_elements" class="sub-nav-text">Text Elements</a>
+        <a href="#combined_elements" class="sub-nav-text">Combined Elements</a>
+        <a href="#citations" class="sub-nav-text">Citations</a>
+      </div>
+    </div>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section class="outer-element standard-max-width-center-elements" id="interactive_elements">
+      <h2 class="inner-element-padding">Interactive Elements</h2>
+
+      <section class="element">
+        <h3>In-text link</h3>
+        <p>This is a normal sentence and this is a <a href="http://google.com">link</a></p>
+      </section>
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+        <form>
+          <button type="submit" value="Submit" class="primary-action-button">Submit</button>
+          <button type="reset" value="Reset" class="default-button">Reset</button>
+        </form>
+      </section>
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+        <form>
+          <label>
+            Label 
+            <input type="text">
+          </label>
+        </form>
+      </section>
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+        <form>
+          <label>
+            Label 
+            <input type="radio">
+          </label>
+        </form>
+      </section>
+
+      <section class="element">
+        <section>
+          <h3>Image as a link</h3>
+
+          <div class="image-link-container">
+            <a href="http://google.com"><img class="image-link" src="img/yashica-t5.jpg" alt="camera"></a>
+            <div class="small-icon-container">
+              <img src="img/icons/link.svg" class="small-icon-white" alt="link-icon">
+            </div>
+          </div>
+
+        </section>
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section class="outer-element standard-max-width-center-elements" id="text_elements">
+      <h2 class="inner-element-padding">Text Elements</h2>
+
+      <section class="element">
+        <h1>Heading One</h1>
+        <h2>Heading Two</h2>
+        <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+        <ol>
+          <li>First item in the list</li>
+          <li>Second item in the list</li>
+          <li>Third item in the list</li>
+        </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section class="outer-element standard-max-width-center-elements" id="combined_elements">
+      <h2 class="inner-element-padding">Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+        <nav>  
+          <div class="nav-container">
+            <a href="index.html" class="nav-text nav-current">Style Guide</a>
+            <a href="product_listing.html" class="nav-text">Product Listings</a>
+            <a href="checkout.html" class="nav-text">Checkout</a>
+          </div>      
+        </nav>
+      </section>
+
+      <!-- Product Listing // -->
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+        <!-- Use wrapper for flexbox // -->
+        <div class="wrapper">
+          <div class="product-container">
+            <div class="product-image-container">
+              <img class="product-img" src="img/canonet.png" alt="camera">
+            </div>
+            <p class="product-title">Canonet QL17</p>
+            <p>$420</p>
+          </div>
+
+          <div class="product-container">
+            <div class="product-image-container">
+              <img class="product-img" src="img/Polaroid-SX-70.jpg" alt="camera">
+            </div>
+            <p class="product-title">Canonet QL17</p>
+            <p>$420</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Payment Form // -->
+      <section class="element">
+        <h3>Payment Form</h3>
+
+        <div class="checkout-container">
+          <h3 class="container-header">Payment Info</h3>
+          <hr class="divider">
+
+          <div class="extra-charges-container">
+
+            <form>
+              <label>
+                Cardholder Name <input type="text" class="display-block-full-width">
+              </label>
+
+              <label>
+                Credit Card Number <input type="text" class="display-block-full-width">
+              </label>
+          
+              <label class="display-inline-full-width float-left">
+                Expiry Date <input type="text" class="display-inline-full-width float-left">
+              </label>
+
+              <label class="display-inline-full-width float-right">
+                CVC <input type="text" class="display-inline-full-width float-right">
+              </label>
+
+              <label>
+                Paypal <input type="radio">
+              </label>
+
+              <label>
+                Credit Card <input type="radio">
+              </label>
+            </form>
+          
+            <button type="submit" value="Submit" class="submit-button">Submit</button>
+
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Checkout -->
+      <section class="element">
+        <h3>Checkout Cart</h3>
+
+        <div class="checkout-container">
+          <h3 class="container-header">Cart</h3>
+          <hr class="divider">
+          <div class="product-listing-compact">
+            <img class="product-img-compact" src="img/Polaroid-SX-70.jpg" alt="camera">
+            <div class="name-color-container">
+              <p>Polaroid SX-70</p>
+              <p class="sub-body-text">Black</p> 
+            </div>
+            <p class="checkout-pricing-text">$150</p>
+          </div>
+
+          <div class="product-listing-compact">
+            <img class="product-img-compact" src="img/canonet.png" alt="camera">
+            <div class="name-color-container">
+              <p>Polaroid SX-70</p>
+              <p class="sub-body-text">Black</p> 
+            </div>
+            <p class="checkout-pricing-text">$150</p>
+          </div>
+
+          <div class="product-listing-compact">
+            <img class="product-img-compact" src="img/rollei35.jpg" alt="camera">
+            <div class="name-color-container">
+              <p>Polaroid SX-70</p>
+              <p class="sub-body-text">Black</p> 
+            </div>
+            <p class="checkout-pricing-text">$150</p>
+          </div>
+         
+          <hr class="divider">
+
+          <div class="extra-charges-container">
+            <div class="charges-container">
+              <p class="sub-body-text">Subtotal</p>
+              <p class="sub-checkout-pricing-text">$450</p>
+            </div>
+
+            <div class="charges-container">
+              <p class="sub-body-text">Shipping</p>
+              <p class="sub-checkout-pricing-text">$15</p>
+            </div>
+          </div>
+         
+          <hr class="divider">
+          <div class="extra-charges-container">
+            <div class="charges-container">
+              <h3 class="float-left">Total</h3>
+              <h3 class="float-right">$465</h3>
+            </div>
+            <button type="submit" value="Submit" class="submit-button">Submit</button>
+          </div>
+          
+        </div>
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    
+    <section class="sub-header-container" id="citations">
+      <h2>Citations</h2>
+      <ul>
+        <li>Rasmus Andersson. Designer. 2017. <strong>Inter [Font]</strong>. Retrieved from <a href="https://rsms.me/inter/">https://rsms.me/inter/</a></li>
+        <li>Exljbris. Designer. 2009. <strong>Calluna [Font]</strong>. Retrieved from <a href="https://www.fontsquirrel.com/fonts/calluna">https://www.fontsquirrel.com/fonts/calluna</a></li>
+        <li>Cole Bemis. Designer. 2016. <strong>Feather [Icon]</strong>. Retrieved from <a href="https://feathericons.com/">https://feathericons.com/</a>.</li>
+        <li>Leica. Source. Undated. <strong>Leica [Image]</strong>. Retrieved from <a href="https://leicastoremiami.com/products/used-leica-m6-ttl-0-85-silver-chrome-2?variant=29565419192364">https://leicastoremiami.com/products/used-leica-m6-ttl-0-85-silver-chrome-2?variant=29565419192364</a>.</li>
+        <li>Pinterest. Source. Undated. <strong>Cononet [Image]</strong>. Retrieved from <a href="https://i.pinimg.com/originals/2b/c2/00/2bc20005a9f27debb51906eba2da036d.png">https://i.pinimg.com/originals/2b/c2/00/2bc20005a9f27debb51906eba2da036d.png</a>.</li>
+        <li>Pinterest. Source. Undated. <strong>Nimslo [Image]</strong>. Retrieved from <a href="https://i.pinimg.com/originals/30/b0/70/30b07079fd473f40135293f40f8763dc.jpg">https://i.pinimg.com/originals/30/b0/70/30b07079fd473f40135293f40f8763dc.jpg</a>.</li>
+        <li>Film Camera Tokyo. Source. Undated. <strong>Ricoh GR [Image]</strong>. Retrieved from <a href="https://filmcameratokyo.com/?pid=144781512">https://filmcameratokyo.com/?pid=144781512</a>.</li>
+        <li>Film Camera Tokyo. Source. Undated. <strong>Minlota [Image]</strong>. Retrieved from <a href="https://filmcameratokyo.com/?pid=145894436">https://filmcameratokyo.com/?pid=145894436</a>.</li>
+        <li>KEH Camera. Source. Undated. <strong>Rollei 35 [Image]</strong>. Retrieved from <a href="https://www.keh.com/shop/rollei-35-40-f3-5-tessar-chrome-24-244518.html">https://www.keh.com/shop/rollei-35-40-f3-5-tessar-chrome-24-244518.html</a>.</li>
+        <li>B&H Photo Video. Source. Undated. <strong>Polaroid [Image]</strong>. Retrieved from <a href="https://www.bhphotovideo.com/c/product/1358118-REG/impossible_004695_polaroid_sx_70_camera_silver_brown.html">https://www.bhphotovideo.com/c/product/1358118-REG/impossible_004695_polaroid_sx_70_camera_silver_brown.html</a>.</li>
+        <li>Tobias Ahlin. Author. 2019. <strong>Smoother & sharper shadows with layered box-shadows [Tutorial]</strong>. Retrieved from <a href="https://tobiasahlin.com/blog/layered-smooth-box-shadows/">https://tobiasahlin.com/blog/layered-smooth-box-shadows/</a></li>
+      </ul>
+    </section>
+
+  </body>
+</html>

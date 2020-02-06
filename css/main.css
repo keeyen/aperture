@@ -1,0 +1,566 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+
+/* Adding 3 different fonts */
+@import url('https://rsms.me/inter/inter.css');
+html {
+  font-family: 'Inter', sans-serif; 
+}
+
+@font-face {
+  font-family: 'berthold_akzidenz_groteskBdex';
+  src: url('http://www.sfu.ca/~keeyeny/fonts/berthold_akzidenz_grotesk_be_bold_extended-webfont.woff2') format('woff2'),
+       url('http://www.sfu.ca/~keeyeny/fonts/berthold_akzidenz_grotesk_be_bold_extended-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'callunasemibold';
+  src: url('http://www.sfu.ca/~keeyeny/fonts/calluna-semibold-webfont.woff2') format('woff2'),
+       url('http://www.sfu.ca/~keeyeny/fonts/calluna-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Site wide CSS reset */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EDEDED;
+}
+
+/* Set max width and center all elements in center */
+.standard-max-width-center-elements {
+  max-width: 920px;  
+  margin: 0 auto 3.5rem auto !important; 
+  float: none !important; 
+}
+
+
+/* Style logo banner */
+#logo-header {
+  max-width: 100% !important; 
+  background-color: #F0693E;
+}
+
+#logo {
+  font-family: 'berthold_akzidenz_groteskBdex';
+  color: #ffffff;
+  font-size: 3em;
+  max-width: 920px;
+  margin: 0 auto !important;
+  padding-top: 5rem;
+  overflow: hidden;
+}
+
+nav {
+  background-color: #242424;
+}
+
+.nav-container {
+  max-width: 920px;
+  margin: 0 auto 3rem auto !important;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Nav text style */
+.nav-text {
+  font-family: 'Inter';
+  font-size: 1em;
+  font-weight: 300 !important;
+  margin-right: 3rem;
+  line-height: 2em;
+  color: #ffffff !important;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.sub-nav-text {
+  font-family: 'Inter';
+  font-size: 1em;
+  font-weight: 500 !important;
+  margin-right: 3rem;
+  line-height: 2em;
+  color: #242424 !important;
+  text-decoration: none;
+}
+
+.sub-nav-text:hover {
+  color: #38A6ED !important;
+  opacity: 1 !important;
+  text-decoration: none;
+}
+
+.sub-header-container {
+  max-width: 920px;
+  margin: 0 auto !important;
+  padding-bottom: 1.5rem;
+}
+
+.sub-header {
+  padding-bottom: 0.5rem;
+}
+
+.nav-text:hover {
+  color: #38A6ED !important;
+  opacity: 1 !important;
+  text-decoration: none;
+}
+
+.nav-current{
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+/* Link color */
+a:link {
+  color: #38A6ED;
+  font-weight: 500;
+  font-family: 'Inter';
+  font-size: 1em;
+}
+
+/* Hover state change link color */
+a:hover {
+  color: #005B8E !important;
+}
+
+a:visited {
+  color: #38A6ED;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: #005B8E;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.2s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(200,200,200);
+}
+
+/* Styling for the button */
+button {
+  display: inline-block;
+  padding: 0.70rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1em;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.2s;
+}
+/* Styling for the button */
+.primary-action-button {
+  color: white;
+  background-color: #38A6ED;
+}
+
+.default-button {
+  color: #000000;
+  background-color: #DADADA;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  color: white;
+  background-color: #38A6ED;
+}
+
+button:hover, button:focus {
+  background-color: rgb(200,200,200);
+}
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+h1 {
+  font-family: 'callunasemibold';
+  font-size: 2.75em;
+  padding-bottom: 1.5rem;
+}
+
+h2 {
+  font-family: 'Inter';
+  font-size: 2.25em;
+  font-weight: 500;
+  padding-bottom: 1.5rem;
+}
+
+h3 {
+  font-family: 'Inter';
+  font-size: 1.5em;
+  font-weight: 300;
+  padding-bottom: 1rem;
+}
+
+h4 {
+  font-family: 'Inter';
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+p {
+  font-family: 'Inter';
+  font-size: 1.125em;
+  font-weight: 300;
+  max-width: 540px;
+  line-height: 140%;
+}
+
+li {
+  font-family: 'Inter';
+  font-size: 1.125em;
+  font-weight: 300;
+  padding-bottom: 0.75rem;
+}
+
+ol, ul {
+  padding-left: 1.25rem;
+}
+
+.container-header {
+  padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+label {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1em;
+  color: #000000;
+}
+
+/* Style text field with thicker border and wider width */
+input {
+  font-family: 'Inter';
+  font-size: 1em;
+  font-weight: 300;
+  display: block;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  margin: 0.5rem 0rem 1.5rem 0rem;
+  padding: 12px;
+}
+
+/* Style text field hover state */
+input:hover {
+  border: 1px solid #38A6ED;
+  /* Inner shadow */
+  -moz-box-shadow:    inset 0 0 5px #005B8E;
+  -webkit-box-shadow: inset 0 0 5px #005B8E;
+   box-shadow:         inset 0 0 5px #005B8E;
+}
+
+/* Style text field focus state */
+input:active {
+  border: 2px solid #f73a00;
+}
+
+.outer-element {
+  margin-bottom: 3.5rem;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+.inner-element-padding {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  margin-bottom: 2rem;
+  padding-top: 2.5rem;
+  border-bottom-width: 0.05rem;
+  border-bottom-style: solid;
+  border-bottom-color:#DCDCDC;
+}
+
+.element {
+  padding-bottom: 3.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.image-link {
+  max-width: 320px;
+  transition-property: border-color; 
+  transition-duration: 0.2s;
+}
+
+.image-link-container {
+  position: relative;
+  display: inline-block;
+}
+
+.small-icon-container {
+  /* center the dark overlay div on top right of image */
+  position: absolute;
+  left: 89%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 28px;
+  background: rgba(0, 0, 0, 0.36);
+  border-radius: 26px;
+  transition-property: background-color; 
+  transition-duration: 0.2s;
+}
+
+.small-icon-white {
+  /* center the icon in the middle of its container (the dark overlay) */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* When image-link-container is hovered change bg color of image-link-container */
+.image-link-container:hover > .small-icon-container {
+  background: #38A6ED;
+}
+
+.image-link:hover{
+  border: 3px;
+  border-style: solid;
+  border-color: #38A6ED;
+}
+
+/* Using flex box to display divs within spread out equally inline */
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.product-img {
+  max-width: 400px;
+  max-height: 320px;
+  padding: 2rem;
+}
+
+.product-title {
+  padding-bottom: 0.375rem;
+  transition-property: color; 
+  transition-duration: 0.2s;
+}
+
+.product-container {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  width: 410px;
+  height: 400px;
+  border: 0.5px;
+  border-style: solid;
+  border-color:  rgba(0, 0, 0, 0.20);
+  border-radius: 6px;
+  transition-property: box-shadow; 
+  transition-duration: 0.2s;
+}
+
+.product-image-container {
+  height: 320px;
+  margin: 0;
+}
+
+.product-container:hover {
+  border-color:  rgba(0, 0, 0, 0.20);
+  /* Tecnhique to achieve super smooth shadows, 
+  - the more layers that represent from weaker to stronger opacity to more smoother it will be
+  - each layer of shadow also start from small to bigger in size
+   */
+  box-shadow: 0px 0.75px 1px rgba(0, 0, 0, 0.03), 
+              0px 1.8px 3.6px rgba(0, 0, 0, 0.04), 
+              0px 3.4px 8px rgba(0, 0, 0, 0.05), 
+              0px 6px 16.6px rgba(0, 0, 0, 0.06), 
+              0px 11.3px 31.5px rgba(0, 0, 0, 0.07), 
+              0px 27px 69px rgba(0, 0, 0, 0.1);
+}
+
+.product-container:hover > .product-title {
+  color: #38A6ED;
+}
+
+.checkout-container {
+  max-width: 410px;
+  border: 0.5px;
+  border-style: solid;
+  border-color:  rgba(0, 0, 0, 0.30);
+  border-radius: 6px;
+}
+
+.product-listing-compact {
+  height: 100px;
+  position: relative;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.product-img-compact {
+  max-width: 100px;
+  max-height: 100px;
+  padding: 0.25rem;
+  float: left;
+
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.product-img-compact-container {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.name-color-container{
+  padding-left: 1rem;
+  max-width: 316px;
+  float: left;
+
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.checkout-pricing-text {
+  position: relative;
+  float: right;
+  padding-top: 0.75rem;
+  font-size: 1em;
+  color: #38A6ED;
+  font-weight: 500;
+}
+
+.sub-body-text {
+  float: left;
+  padding-top: 0.125em;
+  font-size: 1em;
+  color :rgba(0, 0, 0, 0.50);
+}
+
+.sub-checkout-pricing-text {
+  position: relative;
+  padding-top: 2px;
+  float: right;
+  font-size: 1em;
+  color: #38A6ED;
+  font-weight: 500;
+}
+
+.extra-charges-container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.charges-container {
+  height: 2rem;
+  padding-bottom: 1rem;
+}
+/* 
+  SYSTEM LEVEL RULES -------------------
+*/
+.width-constraint {
+  max-width: 920px; 
+	margin: 0 auto !important; 
+	float: none !important;
+}
+
+/* This class centers the content of it's container */
+.vertical-center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.divider {
+  border: 0.5px solid #bbb;
+  margin-bottom: 1.5rem;
+}
+
+/* 
+  Common Reusable Commands -------------------
+*/
+
+.float-right{
+  float: right;
+}
+
+.float-left{
+  float: left;
+}
+
+.display-block-full-width {
+  display: block;
+  width: 100%;
+}
+
+.display-inline-full-width {
+  display: inline;
+  width: 100%;
+}
+
+/* 
+  Responsive Rules -------------------
+*/
+
+@media only screen and (max-width: 950px) {
+
+  #logo {
+    padding-left: 1.5rem;
+  }
+  
+  .nav-container {
+    padding-left: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .standard-max-width-center-elements {  
+    margin: 0 1.5rem 3.5rem 1.5rem !important;  
+  }
+
+  .sub-header-container {
+    margin: 0 1.5rem 0 1.5rem !important;
+  }
+}

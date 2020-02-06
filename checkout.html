@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>APERTURE</title>
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <div id="logo-header">
+        <h1 id="logo" >APERTURE</h1>
+      </div>
+      <nav>  
+        <div class="nav-container">
+          <a href="index.html" class="nav-text">Style Guide</a>
+          <a href="product_listing.html" class="nav-text">Product Listings</a>
+          <a href="checkout.html" class="nav-text nav-current">Checkout</a>
+        </div>      
+      </nav>
+    </header>
+
+    <div class="sub-header-container">
+      <h1 class>Checkout</h1>
+    </div>
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section class="outer-element standard-max-width-center-elements" id="combined_elements">
+      <h2 class="inner-element-padding">Order Summary</h2>
+      
+      <!-- Cart -->
+      <section class="element">
+        <div class="checkout-container">
+          <h3 class="container-header">Cart</h3>
+          <hr class="divider">
+          <div class="product-listing-compact">
+            <img class="product-img-compact" src="img/Polaroid-SX-70.jpg" alt="camera">
+            <div class="name-color-container">
+              <p>Polaroid SX-70</p>
+              <p class="sub-body-text">Black</p> 
+            </div>
+            <p class="checkout-pricing-text">$150</p>
+          </div>
+
+          <div class="product-listing-compact">
+            <img class="product-img-compact" src="img/canonet.png" alt="camera">
+            <div class="name-color-container">
+              <p>Polaroid SX-70</p>
+              <p class="sub-body-text">Black</p> 
+            </div>
+            <p class="checkout-pricing-text">$150</p>
+          </div>
+
+          <div class="product-listing-compact">
+            <img class="product-img-compact" src="img/rollei35.jpg" alt="camera">
+            <div class="name-color-container">
+              <p>Polaroid SX-70</p>
+              <p class="sub-body-text">Black</p> 
+            </div>
+            <p class="checkout-pricing-text">$150</p>
+          </div>
+         
+          <hr class="divider">
+
+          <div class="extra-charges-container">
+            <div class="charges-container">
+              <p class="sub-body-text">Subtotal</p>
+              <p class="sub-checkout-pricing-text">$450</p>
+            </div>
+
+            <div class="charges-container">
+              <p class="sub-body-text">Shipping</p>
+              <p class="sub-checkout-pricing-text">$15</p>
+            </div>
+          </div>
+         
+          <hr class="divider">
+          <div class="extra-charges-container">
+            <div class="charges-container">
+              <h3 class="float-left">Total</h3>
+              <h3 class="float-right">$465</h3>
+            </div>
+            <button type="submit" value="Submit" class="submit-button">Submit</button>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- Payment Form // -->
+      <section class="element">
+       
+        <div class="checkout-container">
+          <h3 class="container-header">Payment Info</h3>
+          <hr class="divider">
+
+          <div class="extra-charges-container">
+
+            <form>
+              <label>
+                Cardholder Name <input type="text" class="display-block-full-width">
+              </label>
+
+              <label>
+                Credit Card Number <input type="text" class="display-block-full-width">
+              </label>
+          
+              <label class="display-inline-full-width float-left">
+                Expiry Date <input type="text" class="display-inline-full-width float-left">
+              </label>
+
+              <label class="display-inline-full-width float-right">
+                CVC <input type="text" class="display-inline-full-width float-right">
+              </label>
+
+              <label>
+                Paypal <input type="radio">
+              </label>
+
+              <label>
+                Credit Card <input type="radio">
+              </label>
+            </form>
+          
+            <button type="submit" value="Submit" class="submit-button">Submit</button>
+
+          </div>
+        </div>
+
+      </section>
+
+      
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+  </body>
+</html>
