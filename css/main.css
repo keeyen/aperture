@@ -209,13 +209,13 @@ button:hover, button:focus {
 
 h1 {
   font-family: 'callunasemibold';
-  font-size: 2.75em;
+  font-size: 2.5em;
   padding-bottom: 1.5rem;
 }
 
 h2 {
-  font-family: 'Inter';
-  font-size: 2.25em;
+  font-family: 'callunasemibold';
+  font-size: 2em;
   font-weight: 500;
   padding-bottom: 1.5rem;
 }
@@ -229,8 +229,9 @@ h3 {
 
 h4 {
   font-family: 'Inter';
-  font-size: 1.25em;
-  font-weight: 300;
+  font-size: 0.875em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
 }
 
 p {
@@ -563,4 +564,33 @@ input:active {
   .sub-header-container {
     margin: 0 1.5rem 0 1.5rem !important;
   }
+}
+
+
+/* 
+  Colors -------------------
+*/
+.black {
+  color: #000000;
+}
+
+.light-grey {
+  color: #EDEDED;
+}
+
+.dark-grey {
+  color: #808080;
+}
+
+.light-blue {
+  color: #38A6ED;
+}
+
+
+/* 
+  Text class -------------------
+*/
+
+.body-description-font {
+  font-size: 0.9375em;
 }
