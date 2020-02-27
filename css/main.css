@@ -57,6 +57,7 @@ body {
   color: #ffffff;
   font-size: 1.25em;
   padding-top: 1.1em;
+  text-decoration: none;
 }
 
 nav {
@@ -156,7 +157,7 @@ a:link {
 
 /* Hover state change link color */
 a:hover {
-  color: #005B8E !important;
+  color: #38A6ED !important;
 }
 
 a:visited {
