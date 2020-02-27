@@ -576,5 +576,16 @@ Louis classes
 }
 .cart-box{
   display: inline-block;
+}
+.home-wrapper{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-content: flex-end;
+}
 
+.home-featured-box{
+
+  border-style: solid;
 }
