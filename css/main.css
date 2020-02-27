@@ -618,6 +618,8 @@ input:active {
 
 .body-description-font {
   font-size: 0.9375em;
+  max-width: 400px;
+  padding-bottom: 1.5em;
 }
 /*
 Louis classes
