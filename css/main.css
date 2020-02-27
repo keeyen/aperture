@@ -1,12 +1,12 @@
 /*
-  STYLE GUIDE STYLING 
-  Default styling for the style guide 
+  STYLE GUIDE STYLING
+  Default styling for the style guide
 */
 
 /* Adding 3 different fonts */
 @import url('https://rsms.me/inter/inter.css');
 html {
-  font-family: 'Inter', sans-serif; 
+  font-family: 'Inter', sans-serif;
 }
 
 @font-face {
@@ -40,15 +40,15 @@ body {
 
 /* Set max width and center all elements in center */
 .standard-max-width-center-elements {
-  max-width: 920px;  
-  margin: 0 auto 3.5rem auto !important; 
-  float: none !important; 
+  max-width: 920px;
+  margin: 0 auto 3.5rem auto !important;
+  float: none !important;
 }
 
 
 /* Style logo banner */
 #logo-header {
-  max-width: 100% !important; 
+  max-width: 100% !important;
   background-color: #F0693E;
 }
 
@@ -146,7 +146,7 @@ code {
 }
 
 
-/* 
+/*
   INTERACTIVE ELEMENTS -------------------
 */
 
@@ -157,7 +157,7 @@ code {
   color: white;
   background-color: #005B8E;
   text-decoration: none;
-  transition-property: background-color; 
+  transition-property: background-color;
   transition-duration: 0.2s;
 }
 
@@ -177,7 +177,7 @@ button {
   font-weight: 500;
   font-size: 1em;
   text-decoration: none;
-  transition-property: background-color; 
+  transition-property: background-color;
   transition-duration: 0.2s;
 }
 /* Styling for the button */
@@ -203,7 +203,7 @@ button:hover, button:focus {
 }
 
 
-/* 
+/*
   TEXT ELEMENTS -------------------
 */
 
@@ -257,7 +257,7 @@ ol, ul {
 }
 
 
-/* 
+/*
   COMBINED ELEMENTS -------------------
 */
 label {
@@ -317,7 +317,7 @@ input:active {
 
 .image-link {
   max-width: 320px;
-  transition-property: border-color; 
+  transition-property: border-color;
   transition-duration: 0.2s;
 }
 
@@ -336,7 +336,7 @@ input:active {
   height: 28px;
   background: rgba(0, 0, 0, 0.36);
   border-radius: 26px;
-  transition-property: background-color; 
+  transition-property: background-color;
   transition-duration: 0.2s;
 }
 
@@ -375,7 +375,7 @@ input:active {
 
 .product-title {
   padding-bottom: 0.375rem;
-  transition-property: color; 
+  transition-property: color;
   transition-duration: 0.2s;
 }
 
@@ -388,7 +388,7 @@ input:active {
   border-style: solid;
   border-color:  rgba(0, 0, 0, 0.20);
   border-radius: 6px;
-  transition-property: box-shadow; 
+  transition-property: box-shadow;
   transition-duration: 0.2s;
 }
 
@@ -399,15 +399,15 @@ input:active {
 
 .product-container:hover {
   border-color:  rgba(0, 0, 0, 0.20);
-  /* Tecnhique to achieve super smooth shadows, 
+  /* Tecnhique to achieve super smooth shadows,
   - the more layers that represent from weaker to stronger opacity to more smoother it will be
   - each layer of shadow also start from small to bigger in size
    */
-  box-shadow: 0px 0.75px 1px rgba(0, 0, 0, 0.03), 
-              0px 1.8px 3.6px rgba(0, 0, 0, 0.04), 
-              0px 3.4px 8px rgba(0, 0, 0, 0.05), 
-              0px 6px 16.6px rgba(0, 0, 0, 0.06), 
-              0px 11.3px 31.5px rgba(0, 0, 0, 0.07), 
+  box-shadow: 0px 0.75px 1px rgba(0, 0, 0, 0.03),
+              0px 1.8px 3.6px rgba(0, 0, 0, 0.04),
+              0px 3.4px 8px rgba(0, 0, 0, 0.05),
+              0px 6px 16.6px rgba(0, 0, 0, 0.06),
+              0px 11.3px 31.5px rgba(0, 0, 0, 0.07),
               0px 27px 69px rgba(0, 0, 0, 0.1);
 }
 
@@ -496,12 +496,12 @@ input:active {
   height: 2rem;
   padding-bottom: 1rem;
 }
-/* 
+/*
   SYSTEM LEVEL RULES -------------------
 */
 .width-constraint {
-  max-width: 920px; 
-	margin: 0 auto !important; 
+  max-width: 920px;
+	margin: 0 auto !important;
 	float: none !important;
 }
 
@@ -519,7 +519,7 @@ input:active {
   margin-bottom: 1.5rem;
 }
 
-/* 
+/*
   Common Reusable Commands -------------------
 */
 
@@ -541,7 +541,7 @@ input:active {
   width: 100%;
 }
 
-/* 
+/*
   Responsive Rules -------------------
 */
 
@@ -550,17 +550,31 @@ input:active {
   #logo {
     padding-left: 1.5rem;
   }
-  
+
   .nav-container {
     padding-left: 1.5rem;
     padding-left: 1.5rem;
   }
 
-  .standard-max-width-center-elements {  
-    margin: 0 1.5rem 3.5rem 1.5rem !important;  
+  .standard-max-width-center-elements {
+    margin: 0 1.5rem 3.5rem 1.5rem !important;
   }
 
   .sub-header-container {
     margin: 0 1.5rem 0 1.5rem !important;
   }
+}
+
+/*
+Louis classes
+*/
+.cart-box-wrapper{
+  text-align: center;
+  background-color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.cart-box{
+  display: inline-block;
+
 }
