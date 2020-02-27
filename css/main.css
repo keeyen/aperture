@@ -40,7 +40,7 @@ body {
 
 /* Set max width and center all elements in center */
 .standard-max-width-center-elements {
-  max-width: 920px;
+  max-width: 960px;
   margin: 0 auto 3.5rem auto !important;
   float: none !important;
 }
