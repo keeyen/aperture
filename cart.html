@@ -9,26 +9,32 @@
 
   <body>
     <header>
-      <div id="logo-header">
-        <h1 id="logo" >APERTURE</h1>
+      <div class="nav-container">
+        <nav>  
+
+          <div class="header-far-left">
+            <a class="nav-text" href="product_listing.html">Shop</a>
+            <a class="nav-text" href="about.html">About</a>
+          </div>
+
+          <div class="header-middle">
+            <div class="logo-container">
+              <h1 id="logo">APRETURE</h1>
+            </div>
+          </div>
+
+          <div class="header-far-right">
+            <a class="nav-text" href="cart.html">Cart</a>
+            <a class="nav-text" href="checkout.html">Checkout</a>
+          </div> 
+
+        </nav>
       </div>
-      <nav>
-        <div class="nav-container">
-          <a href="index.html" class="nav-text">Style Guide</a>
-          <a href="product_listing.html" class="nav-text">Product Listings</a>
-          <a href="checkout.html" class="nav-text nav-current">Checkout</a>
-        </div>
-      </nav>
     </header>
 
+    <div class="sub-header-container">
+        <h1>Your Current Shopping Cart</h1>
 
-
-
-    <section class="cart-box-wrapper">
-
-
-      <!-- Cart -->
-      <section class="element cart-box">
         <div class="checkout-container">
           <h3 class="container-header">Cart</h3>
           <hr class="divider">
@@ -36,7 +42,7 @@
             <img class="product-img-compact" src="img/Polaroid-SX-70.jpg" alt="camera">
             <div class="name-color-container">
               <p>Polaroid SX-70</p>
-              <p class="sub-body-text">Black</p>
+              <p class="sub-body-text">Black</p> 
             </div>
             <p class="checkout-pricing-text">$150</p>
           </div>
@@ -45,7 +51,7 @@
             <img class="product-img-compact" src="img/canonet.png" alt="camera">
             <div class="name-color-container">
               <p>Polaroid SX-70</p>
-              <p class="sub-body-text">Black</p>
+              <p class="sub-body-text">Black</p> 
             </div>
             <p class="checkout-pricing-text">$150</p>
           </div>
@@ -54,11 +60,11 @@
             <img class="product-img-compact" src="img/rollei35.jpg" alt="camera">
             <div class="name-color-container">
               <p>Polaroid SX-70</p>
-              <p class="sub-body-text">Black</p>
+              <p class="sub-body-text">Black</p> 
             </div>
             <p class="checkout-pricing-text">$150</p>
           </div>
-
+         
           <hr class="divider">
 
           <div class="extra-charges-container">
@@ -72,17 +78,19 @@
               <p class="sub-checkout-pricing-text">$15</p>
             </div>
           </div>
-
+         
           <hr class="divider">
           <div class="extra-charges-container">
             <div class="charges-container">
               <h3 class="float-left">Total</h3>
               <h3 class="float-right">$465</h3>
             </div>
-            <button type="submit" value="Submit" class="submit-button">Checkout</button>
+            <button type="submit" value="Submit" class="submit-button">Submit</button>
           </div>
-
+          
         </div>
-      </section>
-</body>
+    
+    </div>
+
+  </body>
 </html>
