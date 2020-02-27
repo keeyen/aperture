@@ -618,3 +618,27 @@ input:active {
 .body-description-font {
   font-size: 0.9375em;
 }
+/*
+Louis classes
+*/
+.cart-box-wrapper{
+  text-align: center;
+  background-color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.cart-box{
+  display: inline-block;
+}
+.home-wrapper{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-content: flex-end;
+}
+
+.home-featured-box{
+
+  border-style: solid;
+}
