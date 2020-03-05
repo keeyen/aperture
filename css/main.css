@@ -430,6 +430,7 @@ input:active {
   padding: 2rem;
 }
 
+
 .featured-product-img {
   max-width: 280px;
   max-height: 320px;
@@ -462,6 +463,11 @@ input:active {
 
 .product-image-container {
   height: 250px;
+  margin: 0;
+}
+
+.product-detail-image-container {
+  height: 340px;
   margin: 0;
 }
 
