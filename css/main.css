@@ -60,10 +60,12 @@ body {
 }
 
 nav {
-  max-width: 920px;
+  max-width: 1080px;
   margin: 0 auto 5rem auto !important;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
   display: flex;
   height: 64px;
   background: #000000;
@@ -622,6 +624,7 @@ input:active {
   Responsive Rules -------------------
 */
 
+/*
 @media only screen and (max-width: 950px) {
 
   #logo {
@@ -641,6 +644,8 @@ input:active {
     margin: 0 1.5rem 0 1.5rem !important;
   }
 }
+
+*/
 
 
 /* 
