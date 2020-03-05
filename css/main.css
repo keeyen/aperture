@@ -489,6 +489,9 @@ input:active {
   border-style: solid;
   border-color:  rgba(0, 0, 0, 0.30);
   border-radius: 6px;
+  background-color: #ffffff;
+  margin: auto;
+  width: 50%;
 }
 
 .product-listing-compact {
@@ -643,6 +646,10 @@ input:active {
 
 .light-grey {
   color: #EDEDED;
+}
+
+.light-grey-background {
+  background-color: #EDEDED;
 }
 
 .dark-grey {
