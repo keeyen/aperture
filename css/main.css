@@ -11,16 +11,16 @@ html {
 
 @font-face {
   font-family: 'berthold_akzidenz_groteskBdex';
-  src: url('/fonts/berthold_akzidenz_grotesk_be_bold_extended-webfont.woff2') format('woff2'),
-       url('/fonts/berthold_akzidenz_grotesk_be_bold_extended-webfont.woff') format('woff');
+  src: url('../fonts/berthold_akzidenz_grotesk_be_bold_extended-webfont.woff2') format('woff2'),
+       url('../fonts/berthold_akzidenz_grotesk_be_bold_extended-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'callunasemibold';
-  src: url('https://github.com/keeyen/aperture/blob/master/fonts/calluna-semibold-webfont.woff2') format('woff2'),
-       url('https://github.com/keeyen/aperture/blob/master/fonts/calluna-semibold-webfont.woff') format('woff');
+  src: url('../fonts/calluna-semibold-webfont.woff2') format('woff2'),
+       url('../fonts/calluna-semibold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
