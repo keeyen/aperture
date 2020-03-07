@@ -61,7 +61,7 @@ body {
 
 nav {
   max-width: 1080px;
-  margin: 0 auto 5rem auto !important;
+  margin: 0 auto 0 auto !important;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 2.5rem;
@@ -101,20 +101,21 @@ nav {
 }
 
 .featured-header-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  background: url("../img/featured-img-polaroid.png") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  height: 500px;
+
+  padding-bottom: 6rem;
 }
 
-.featured-header-content-left {
-  flex: 1;
-  padding-right: 2em;
+.featured-header-content {
+  max-width: 340px;
+  
 }
-
-.featured-header-content-right {
-  max-width: 620px;
-}
-
 
 /* Nav text style */
 .nav-text {
@@ -157,9 +158,9 @@ nav {
 .standard-container {
   max-width: 1080px;
   margin: 0 auto !important;
+  padding-top: 5rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-  padding-bottom: 6rem;
 }
 
 .nav-text:hover {
@@ -293,7 +294,7 @@ h4 {
 
 p {
   font-family: 'Inter';
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: 300;
   max-width: 640px;
   line-height: 140%;
@@ -302,7 +303,7 @@ p {
 
 li {
   font-family: 'Inter';
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: 300;
   padding-bottom: 0.75rem;
 }
@@ -430,18 +431,6 @@ input:active {
   max-width: 100%;
   max-height: 100%;
   padding: 2rem;
-}
-
-
-.featured-product-img {
-  max-width: 280px;
-  max-height: 320px;
-  padding: 2rem;
-}
-
-.featured-header-img {
-  max-width: 100%;
-  max-height: 100%;
 }
 
 .product-title {
@@ -624,28 +613,16 @@ input:active {
   Responsive Rules -------------------
 */
 
-/*
-@media only screen and (max-width: 950px) {
 
-  #logo {
-    padding-left: 1.5rem;
-  }
+@media only screen and (max-width: 400px) {
 
-  .nav-container {
-    padding-left: 1.5rem;
-    padding-left: 1.5rem;
-  }
-
-  .standard-max-width-center-elements {
-    margin: 0 1.5rem 3.5rem 1.5rem !important;
-  }
-
-  .sub-header-container {
-    margin: 0 1.5rem 0 1.5rem !important;
+  .featured-header-content-right {
+    flex: 1;
+    max-width: 600px;
   }
 }
 
-*/
+
 
 
 /* 
@@ -685,6 +662,8 @@ input:active {
 .mid-text-padding {
   padding-bottom: 1em;
 }
+
+
 
 /*
 Louis classes
