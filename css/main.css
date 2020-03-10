@@ -763,18 +763,24 @@ Louis classes
 }
 
 .img3{
-  max-width: 70%;
+  max-width: 90%;
   display: block;
   margin: auto;
+    padding: .5em;
 }
 
 .column{
-  min-width:40%;
-  max-width: 50%;
 
+  max-width: 45%;
+  padding: .5em;
   flex:33%;
 }
-
+@media screen and (max-width: 800px) {
+  .column , .img3{
+    flex: 60%;
+    max-width: 80%;
+  }
+}
 .row{
   display:flex;
   justify-content:center;
