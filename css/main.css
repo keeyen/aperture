@@ -507,7 +507,7 @@ input:active {
 }
 
 .product-detail-image-container {
-  height: 340px;
+  height: 320px;
   margin: 0;
 }
 
@@ -537,7 +537,6 @@ input:active {
   border-radius: 6px;
   background-color: #ffffff;
   margin: auto;
-  width: 50%;
 }
 
 .product-listing-compact {
@@ -692,6 +691,20 @@ input:active {
     flex: 1;
     max-width: 600px;
   }
+
+  .flex-grid, .flex-grid-third {
+    display: block;
+  }
+
+  .flex-grid-third .column {
+    width: 100%;
+  }
+  
+  .flex-grid-two .column {
+    width: 100%;
+  }
+
+
 }
 
 
@@ -787,6 +800,10 @@ Louis classes
   flex-flow: wrap;
   align-items: stretch;
 
-  flex-wrap:wrap;
-  clear:both;
+.flex-grid-third .column {
+  width: 32%;
+}
+
+.flex-grid-two .column {
+  width: 50%;
 }
