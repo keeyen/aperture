@@ -9,10 +9,10 @@
   </head>
 
   <body>
+    <!-- Nav Bar -->
     <header>
       <div class="nav-container">
         <nav>
-
           <div class="header-far-left">
             <a class="nav-text" href="product_listing.html">Shop</a>
             <a class="nav-text" href="about.html">About</a>
@@ -28,22 +28,35 @@
             <a class="nav-text" href="cart.html">Cart</a>
             <a class="nav-text" href="checkout.html">Checkout</a>
           </div>
-
         </nav>
       </div>
     </header>
 
-    <div class="sub-header-container">
-      <div class="product-detail-image-container float-left">
-        <img class="product-img" src="img/Polaroid-SX-70.jpg" alt="camera">
-      </div>
+    <!-- Product Description -->
+    <div class="standard-container">
+      <div class="flex-grid-two">
+        <div class="column">
+          <img class="product-detail-img" src="img/Polaroid-SX-70.jpg" alt="camera">
+        </div>
 
-      <div class="float-right">
-        <h2>Polaroid SX-70</h2>
-        <h3>$550</h3>
-        <p class="body-description-font">The Polaroid SX-70 is one of the most famous instant cameras in the world. It was the first instant SLR camera ever made, and the first to use Polaroid’s now-iconic instant film which brought photos to life the moment they left the camera. Its manual controls have made it the go-to camera for artists and dreamers alike, and its fold-down design means you can take it with you, wherever you go. And trust us, you’ll want to.</p>
-        <p class="body-description-font"> <a class="sub-nav-text" href"http://google.com">Write a Review</a> 4.5 out of 5 Stars (23 Reviews) </p>
-        <button onclick="location.href= 'cart.html'" type="add" value="add" class="submit-button">Add to Cart</button>
+        <div class="column product-description">
+          <h2>Polaroid SX-70</h2>
+          <h3>$550</h3>
+          <p class="body-description-font">The Polaroid SX-70 is one of the most famous instant cameras in the world. It was the first instant SLR camera ever made, and the first to use Polaroid’s now-iconic instant film which brought photos to life the moment they left the camera. Its manual controls have made it the go-to camera for artists and dreamers alike, and its fold-down design means you can take it with you, wherever you go. And trust us, you’ll want to.</p>
+          <p class="body-description-font"> <a class="sub-nav-text" href"http://google.com">Write a Review</a> 4.5 out of 5 Stars (23 Reviews) </p>
+          <button onclick="location.href= 'cart.html'" type="add" value="add" class="submit-button">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Images -->
+    <div class="standard-container">
+      <h3>Product Images</h3>
+      <div class="flex-grid-two" >
+        <img class="column" src="img/polaroid-1.jpeg" >
+        <img class="column" src="img/polaroid-2.jpeg" >
+        <img class="column" src="img/polaroid-3.jpeg" >
+        <img class="column" src="img/polaroid-4.jpeg" >
       </div>
     </div>
 
@@ -53,6 +66,7 @@
       <a class="footer-text" href="styleguide.html">Style Guide</a>
       <a class="footer-text" href="https://github.com/keeyen/aperture">Git Repo</a>
     </div>
+
 
   </body>
 </html>
