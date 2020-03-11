@@ -70,7 +70,7 @@ nav {
   padding-right: 2.5rem;
   display: flex;
   height: 64px;
-  background: #920d0d;
+  background: #000000;
 }
 
 .header-far-left {
@@ -104,7 +104,7 @@ nav {
 
 /* For 3 different page's background header */
 .featured-header-container-about {
-  background: url("../img/featured-img-1.jpg") no-repeat center;
+  background: url("../img/about-2.png") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -138,6 +138,7 @@ nav {
 
 .featured-header-content {
   max-width: 340px;
+  padding-right: 2em;
 
   /* Vertical center */
   margin: 0;
@@ -700,6 +701,10 @@ input:active {
   color: #000000;
 }
 
+.white {
+  color: #ffffff;
+}
+
 .light-grey {
   color: #EDEDED;
 }
@@ -710,6 +715,10 @@ input:active {
 
 .dark-grey {
   color: rgba(0, 0, 0, 0.53);
+}
+
+.transparent-white {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .light-blue {
@@ -729,6 +738,10 @@ input:active {
 
 .mid-text-padding {
   padding-bottom: 1em;
+}
+
+.mid-text-width {
+  max-width: 600px !important;
 }
 
 
@@ -770,21 +783,12 @@ Louis classes
 
 .flex-grid {
   display: flex;
-<<<<<<< HEAD
 }
 
 .flex-grid .column {
   flex: 1;
 }
 
-=======
-}
-
-.flex-grid .column {
-  flex: 1;
-}
-
->>>>>>> master
 .flex-grid-two {
   display: flex;
   flex-wrap: wrap;
@@ -819,8 +823,4 @@ Louis classes
   .body-description-font {
     max-width: 100%;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 }
