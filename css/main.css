@@ -770,12 +770,21 @@ Louis classes
 
 .flex-grid {
   display: flex;
+<<<<<<< HEAD
 }
 
 .flex-grid .column {
   flex: 1;
 }
 
+=======
+}
+
+.flex-grid .column {
+  flex: 1;
+}
+
+>>>>>>> master
 .flex-grid-two {
   display: flex;
   flex-wrap: wrap;
@@ -810,5 +819,8 @@ Louis classes
   .body-description-font {
     max-width: 100%;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 }
