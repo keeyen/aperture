@@ -38,9 +38,9 @@ body {
   background-color: #ffffff;
 }
 
-/* Set max width and center the container in center */
+/* Set max width and center the container in center, special for styleguide containers */
 .standard-max-width-center-elements {
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto !important;
   float: none !important;
 }
