@@ -87,7 +87,7 @@ nav {
 }
 
 .header-far-right {
-  display: flex;
+  text-align: right;
   grid-area: 1 / 3 / 2 / 4;
 }
 
