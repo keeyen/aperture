@@ -115,6 +115,7 @@ nav {
 }
 
 .header-far-left {
+  display: flex;
   grid-area: 1 / 1 / 2 / 2;
 }
 
@@ -128,7 +129,7 @@ nav {
 }
 
 .header-far-right {
-  text-align: right;
+  display: flex;
   grid-area: 1 / 3 / 2 / 4;
 }
 
