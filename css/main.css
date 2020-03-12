@@ -55,48 +55,6 @@ header {
   flex-wrap: wrap;
 }
 
-/* Nav content container. Using flexbox to align items left middle and right on nav
-nav {
-  max-width: 1080px;
-  margin: 0 auto 0 auto !important;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-  display: flex;
-  height: 64px;
-  background: #000000;
-
-  .header-far-left {
-  flex: 1;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-  .header-middle {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  grid-area: 1 / 2 / 2 / 3;
-}
-
-.header-far-right {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-
-  grid-area: 1 / 3 / 2 / 4;
-}
-
-
-}
-
-*/
-
 /* Nav content container. Using flexbox to align items left middle and right on nav using 3 coumn 1 row grid  */
 nav {
   max-width: 1080px;
@@ -312,6 +270,7 @@ button {
   transition-duration: 0.2s;
   max-width: 380px;
 }
+
 /* Styling for the button */
 .primary-action-button {
   color: white;
@@ -333,7 +292,6 @@ button {
 button:hover, button:focus {
   background-color: rgb(200,200,200);
 }
-
 
 /*
   TEXT ELEMENTS -------------------
