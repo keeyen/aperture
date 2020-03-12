@@ -55,7 +55,7 @@ header {
   flex-wrap: wrap;
 }
 
-/* Nav content container. Using flexbox to align items left middle and right on nav 
+/* Nav content container. Using flexbox to align items left middle and right on nav
 nav {
   max-width: 1080px;
   margin: 0 auto 0 auto !important;
@@ -872,12 +872,12 @@ input:active {
     background: url("../img/about-2.png") no-repeat center;
     height: 400px;
   }
-  
+
   .featured-header-container-shop {
     background: url("../img/featured-img-leica.png") no-repeat center;
     height: 400px;
   }
-  
+
   .featured-header-container-home {
     background: url("../img/featured-img-polaroid.png") no-repeat center;
     height: 400px;
@@ -886,4 +886,35 @@ input:active {
   .featured-header-content {
     max-width: 300px;
   }
+}
+
+/** CSS For mobile devices **/
+@media (max-width: 380px) {
+
+  .standard-container {
+    padding-top: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .footer-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .product-img-compact {
+    max-width: 70px;
+    max-height: 70px;
+  }
+
+  .event-container{
+    display: block;
+  }
+
+  .event-img-container {
+    max-width: 100%;
+    padding-right: 0rem;
+    padding-bottom: 1rem;
+  }
+
 }
